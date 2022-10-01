@@ -21,7 +21,7 @@ const ToDo = ({ task, handleDelete, handleEdit, tasks, setTasks }) => {
             }
             return item;
         }))
-    }
+    };
 
     const toggle = () => {
         if (isEdit) {
@@ -32,7 +32,7 @@ const ToDo = ({ task, handleDelete, handleEdit, tasks, setTasks }) => {
 
 
     const onKeyDown = e =>{ // сохранение по нажатию Enter
-        if (e.key == 'Enter') { //e.keyCode == 13 -номер Enter
+        if (e.key === 'Enter') { //e.keyCode == 13 -номер Enter
             toggle()}
             
         }

@@ -15,6 +15,7 @@ const ToDoApp = () => {
         { id: 3, title: "Get a Taxi at 6p.m.", completed: false },
     ]);
 
+
     const handleDelete = (id) => {
         const filtredArr = tasks.filter((item) => item.id !== id);
         setTasks([...filtredArr]);
