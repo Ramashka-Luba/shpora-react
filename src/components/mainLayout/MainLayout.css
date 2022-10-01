@@ -1,0 +1,41 @@
+.logo {
+  height: 32px;
+  margin: 16px 16px 16px 30px;
+  color: #00D8FF;
+}
+
+.logo-icon {
+  width: 50px;
+  ;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo-icon {
+    animation: logo-icon-spin infinite 8s linear;
+  }
+}
+
+@keyframes logo-icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ant-layout {
+  height: 100vh;
+  background-image: url('./../../assets/Desktop\ -\ 3.png');
+}
+
+.ant-layout-content {
+  position: relative;
+}
+
+.ant-layout-footer {
+  color: white;
+  background-color: #001529;
+}
