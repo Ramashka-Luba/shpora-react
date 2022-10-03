@@ -10,9 +10,7 @@ import ToDo from '../toDoApp/toDo/ToDo.jsx'
 const ToDoApp = () => {
 
     const [tasks, setTasks] = useState([
-        { id: 1, title: "Buy Orange", completed: false },
-        { id: 2, title: "Make a Two Sandwich", completed: false },
-        { id: 3, title: "Get a Taxi at 6p.m.", completed: false },
+        { id: 1, title: "Buy Orange", date:'2000-20-20', count: 20, completed: false },
     ]);
 
 
@@ -21,11 +19,26 @@ const ToDoApp = () => {
         setTasks([...filtredArr]);
     };
 
-    const handleEdit = (id, text) => {
+    const handleEdit = (id, text, date, count ) => {
         // console.log("----handleEdit----", id, text);
         const arr = tasks.map(item => item.id === id ? { ...item, title: text } : item);
+
         setTasks([...arr]);
     };
+
+    const handleComplete = (id) => {    // заваршина таска или нет 
+        setTasks(tasks.map(item => {
+            if (item.id === id) {
+                return {
+                    ...item, completed: !item.completed
+                };
+            }
+            return item;
+        }))
+    };
+
+
+
     
 
     // console.log(tasks);
@@ -44,8 +57,10 @@ const ToDoApp = () => {
                             task={task}
                             handleDelete={handleDelete}
                             handleEdit={handleEdit}
-                            tasks={tasks}
-                            setTasks={setTasks}
+                            // tasks={tasks}
+                            // setTasks={setTasks}
+                            handleComplete={handleComplete}
+
                         />
                     ))}
                 </ul>
