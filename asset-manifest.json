@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/shpora-react/static/css/main.d6b66b10.css",
-    "main.js": "/shpora-react/static/js/main.5cc96dc6.js",
-    "static/js/787.44b0bdf6.chunk.js": "/shpora-react/static/js/787.44b0bdf6.chunk.js",
-    "static/media/React1_(1).png": "/shpora-react/static/media/React1_(1).d75a782f5720bc1c846a.png",
-    "static/media/Desktop - 3.png": "/shpora-react/static/media/Desktop - 3.f0e2832cd6f8c8f30948.png",
-    "static/media/logo.svg": "/shpora-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/shpora-react/index.html",
-    "main.d6b66b10.css.map": "/shpora-react/static/css/main.d6b66b10.css.map",
-    "main.5cc96dc6.js.map": "/shpora-react/static/js/main.5cc96dc6.js.map",
-    "787.44b0bdf6.chunk.js.map": "/shpora-react/static/js/787.44b0bdf6.chunk.js.map"
+    "main.css": "/static/css/main.29baff78.css",
+    "main.js": "/static/js/main.a3c4da23.js",
+    "static/js/787.44b0bdf6.chunk.js": "/static/js/787.44b0bdf6.chunk.js",
+    "static/media/React1_(1).png": "/static/media/React1_(1).d75a782f5720bc1c846a.png",
+    "static/media/Desktop - 3.png": "/static/media/Desktop - 3.f0e2832cd6f8c8f30948.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.29baff78.css.map": "/static/css/main.29baff78.css.map",
+    "main.a3c4da23.js.map": "/static/js/main.a3c4da23.js.map",
+    "787.44b0bdf6.chunk.js.map": "/static/js/787.44b0bdf6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6b66b10.css",
-    "static/js/main.5cc96dc6.js"
+    "static/css/main.29baff78.css",
+    "static/js/main.a3c4da23.js"
   ]
 }
